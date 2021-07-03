@@ -2,7 +2,7 @@
   "name": "aesop-product-page-replica-server",
   "version": "1.0.0",
   "description": "The backend and API for the Aesop product page replica project]\\",
-  "main": "dist/index.js",
+  "main": "build/index.js",
   "repository": "https://github.com/ScottHarrisonDev/aesop-product-page-replica",
   "author": "Scott Harrison (ScottHarrisonDev)",
   "license": "MIT",
@@ -18,5 +18,9 @@
     "@types/cors": "^2.8.10",
     "cors": "^2.8.5",
     "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "nodemon index.ts",
+    "build": "tsc --project ./"
   }
 }
