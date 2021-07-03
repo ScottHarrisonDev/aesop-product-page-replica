@@ -18,3 +18,9 @@ This is the process I followed when completing this project
 4. Ran `yarn init` and setup the package.json within the server folder
 5. Add dependencies such as express, typescript, nodemon to get a suitable NodeJS dev environment set up
 6. Create a tsconfig.json to configure TypeScript
+7. Create index.ts which will be the entry point for the Express server with a simple test endpoint
+8. Run `yarn start` to verify everything is working as expected
+9. Create src/controllers/content.controller.ts to handle all content related endpoints (In a production API there may be content, products, blog posts etc.)
+10. Update index.ts to use the new content controller
+11. Run server via `yarn start` and verify the /content/navigation route is working
+12. 

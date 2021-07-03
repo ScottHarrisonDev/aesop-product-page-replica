@@ -1,5 +1,6 @@
 import express from 'express';
 import cors from 'cors';
+import {contentRouter} from "./src/controllers/content.controller";
 
 const app = express();
 const PORT = 8000;
@@ -12,9 +13,7 @@ app.use(cors({
   origin: '*'
 }));
 
-app.get("/test-endpoint", (req, res) => {
-  res.status(200).send("test");
-});
+app.use("/content/", contentRouter);
 
 module.exports = app.listen(PORT, () => {
   console.log(`API Server is running @ http://localhost:${PORT}`);
