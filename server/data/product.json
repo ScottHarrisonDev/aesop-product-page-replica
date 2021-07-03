@@ -1,0 +1,127 @@
+{
+    "id": 2535,
+    "slug": "in-two-minds-facial-cleanser",
+    "category": [
+        "Skin",
+        "Cleanse"
+    ],
+    "name": "In Two Minds Facial Cleanser",
+    "description": "A gentle gel-based formulation that cleanses thoroughly without drying the skin or stripping its natural oils.",
+    "sizes": [
+        {
+            "name": "100 mL",
+            "image": {
+                "url": "https://www.aesop.com/u1nb1km7t5q7/1qBFy7BYzet5LV546uIUtv/da3ecdcc7189e90e998015a60557d4ca/Aesop-Skin-In-Two-Minds-Facial-Cleanser-100mL-Medium-653x752px.png",
+                "alt": "Aesop’s In Two Minds Facial Cleanser; a daily gel cleanser for combination skin with Witch Hazel and Salicylic Acid."
+            },
+            "price": 2300
+        },
+        {
+            "name": "200 mL",
+            "image": {
+                "url": "https://www.aesop.com/u1nb1km7t5q7/7p7GsoLigpadgSGJ4ahfdw/b5ae27e007d3fd86dfef2b65b9fc0770/Aesop-Skin-In-Two-Minds-Facial-Cleanser-200mL-Medium-653x752px.png",
+                "alt": "Aesop’s In Two Minds Facial Cleanser; a daily gel cleanser for combination skin with Witch Hazel and Salicylic Acid."
+            },
+            "price": 3500
+        }
+    ],
+    "details": [
+        {
+            "title": "Suited to",
+            "copy": "Combination skin"
+        },
+        {
+            "title": "Skin feel",
+            "copy": "Purified, soft, refreshed"
+        },
+        {
+            "title": "Key ingredients",
+            "copy": "Witch Hazel, Salicylic Acid, Sage Leaf"
+        }
+    ],
+    "cta": {
+        "title": "Discover the kit",
+        "copy": "Balance: Classic Skin Care Kit",
+        "image": {
+            "url": "https://www.aesop.com/u1nb1km7t5q7/7N1GYJ8bxPYZjrjxUstobc/b62c9083e708e00542838b08a9c6b8fc/Aesop-Kit-Balance-PDP-Asset-Tablet-1238x752px.png",
+            "alt": "Balance: Classic Skin Care Kit"
+        },
+        "url": "https://www.aesop.com/uk/p/skin/skin-kits/balance-classic-skin-care-kit-/"
+    },
+    "gallery": [
+        {
+            "url": "https://www.aesop.com/u1nb1km7t5q7/1bRACdCtTuuFytVln4bRTK/d0cb37294213e163a69a3425fb41b959/Aesop-Skin-In-Two-Minds-Facial-Cleanser-Texture-Landing-Page-Hero-50-50-Tablet-1536x950px.jpg",
+            "alt": ""
+        }
+    ],
+    "instructions": {
+        "primary": {
+            "title": "How to use",
+            "copy": "Dispense into clean hands, massage over the face and neck, then rinse thoroughly with warm water."
+        },
+        "secondary": [
+            {
+                "title": "Dosage",
+                "copy": "Half a teaspoon"
+            },
+            {
+                "title": "Texture",
+                "copy": "Lightweight gel"
+            },
+            {
+                "title": "Aroma",
+                "copy": "Fresh, herbaceous"
+            }
+        ]
+    },
+    "related-products": [
+        {
+            "title": "Fabulous Face Cleanser",
+            "subtitle": "For skin requiring gentle cleansing",
+            "image": {
+                "url": "https://www.aesop.com/u1nb1km7t5q7/3LZkbf5hjURemoyB8OrmRu/e10c31c24659ccfe4b507c9fbf39778f/Aesop-Skin-Fabulous-Face-Cleanser-100mL-medium.png",
+                "alt": "Fabulous Face Cleanser in amber glass bottle"
+            }
+        },
+        {
+            "title": "Parsley Seed Facial Cleanser",
+            "subtitle": "Ideal for city dwellers",
+            "image": {
+                "url": "https://www.aesop.com/u1nb1km7t5q7/1J8SySRI80kNELXpscAPFT/da836678b9807dd381890c118a8e68a2/Aesop-SkinParsley-Seed-Facial-Cleanser-100mL-medium.png",
+                "alt": "Parsley Seed Facial Cleanser in amber glass bottle"
+            }
+        },
+        {
+            "title": "Amazing Face Cleanser",
+            "subtitle": "Suited to oily and combination skin",
+            "image": {
+                "url": "https://www.aesop.com/u1nb1km7t5q7/2GmA8KI2jZvOkyuyzFtCas/ea4cdf8e3af321ab39362dd08a0b16aa/Aesop-Skin-Amazing-Face-Cleanser-200mL-medium.png",
+                "alt": "Amazing Face Cleanser in amber bottle."
+            }
+        },
+        {
+            "title": "In Two Minds Facial Toner",
+            "subtitle": "Formulated for combination skin",
+            "image": {
+                "url": "https://www.aesop.com/u1nb1km7t5q7/5reJeNwIaWyF2Y7EoxgPkV/c7c3a3237f281cb8de61caa57cefb41f/Aesop-Skin-In-Two-Minds-Facial-Toner-100mL-Medium-611x622px.png",
+                "alt": "In Two Minds Facial Toner in amber glass bottle"
+            }
+        },
+        {
+            "title": "Purifying Facial Cream Cleanser",
+            "subtitle": "Gently sloughs away dead surface cells",
+            "image": {
+                "url": "https://www.aesop.com/u1nb1km7t5q7/41BJdfFQstCH1L9FBeXjYN/a6d07a363cab42453c6631c8dbea1a04/Aesop-Skin-Purifying-Facial-Cream-Cleanser-100mL-medium.png",
+                "alt": "Aesop’s Purifying Facial Cream Cleanser in aluminium tube; enriched with Lavender Stem and White Clay."
+            }
+        },
+        {
+            "title": "Purifying Facial Exfoliant Paste",
+            "subtitle": "A deep-cleansing exfoliating cream",
+            "image": {
+                "url": "https://www.aesop.com/u1nb1km7t5q7/2OnIwrdMWY1FxOK2B3Mn9e/f42afbc4963592e9654c5c211925797e/SK33-medium.png",
+                "alt": "Aesop’s Purifying Facial Exfoliant Paste; a cream-based exfoliant for dry skin, enhanced with fine Quartz and Lactic Acid."
+            }
+        }
+    ]
+}

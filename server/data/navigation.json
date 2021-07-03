@@ -1,0 +1,42 @@
+{
+    "left": [
+        {
+            "id": "shop",
+            "label": "Shop",
+            "slug": "/shop",
+            "interactive": false
+        },
+        {
+            "id": "read",
+            "label": "Read",
+            "slug": "/read",
+            "interactive": false
+        },
+        {
+            "id": "stores",
+            "label": "Stores",
+            "slug": "/visit",
+            "interactive": false
+        },
+        {
+            "id": "search",
+            "label": "Search",
+            "slug": null,
+            "interactive": true
+        }
+    ],
+    "right": [
+        {
+            "id": "login",
+            "label": "Login",
+            "slug": null,
+            "interactive": true
+        },
+        {
+            "id": "cart",
+            "label": "Cart",
+            "slug": null,
+            "interactive": true
+        }
+    ]
+}

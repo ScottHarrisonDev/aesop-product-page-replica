@@ -1,0 +1,22 @@
+{
+    "content": {
+        "banner": {
+            "copy": "Enjoy complimentary carbon neutral shipping on all orders."
+        },
+        "cta": {
+            "title": "Book a video consultation",
+            "copy": "For assistance selecting the perfect gift, speak to one of our trained consultants.",
+            "url": "https://www.aesop.com/uk/r/live-video-consultations/"
+        },
+        "more-products": {
+            "copy": "Others also considered"
+        }
+    },
+    "layout": [
+        "product",
+        "cta",
+        "gallery",
+        "instructions",
+        "related-products"
+    ]
+}
