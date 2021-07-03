@@ -9,6 +9,7 @@ Below I will outline my process through developing this project and discuss my r
 - Use Express for the NodeJS server
 - TypeScript instead of JavaScript for strongly typed code
 - Yarn for the package manager (I used to use npm but after doing some research last year it seemed that Yarn was better in a number of ways including performance and generally seems to offer a simpler, cleaner experience)
+- Mobile first approach for the front end styling
 
 ## Process
 This is the process I followed when completing this project
@@ -23,4 +24,4 @@ This is the process I followed when completing this project
 9. Create src/controllers/content.controller.ts to handle all content related endpoints (In a production API there may be content, products, blog posts etc.)
 10. Update index.ts to use the new content controller
 11. Run server via `yarn start` and verify the /content/navigation route is working
-12. 
+12. After reading the brief again I realised that having a controller for each type of data that needs to be returned would be much wiser so I refactored the code to be in content, navigation and products controllers (Rather than just the single content controller)

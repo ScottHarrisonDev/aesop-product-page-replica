@@ -1,6 +1,8 @@
 import express from 'express';
 import cors from 'cors';
 import {contentRouter} from "./src/controllers/content.controller";
+import {productsRouter} from "./src/controllers/products.controller";
+import {navigationRouter} from "./src/controllers/navigation.controller";
 
 const app = express();
 const PORT = 8000;
@@ -14,6 +16,8 @@ app.use(cors({
 }));
 
 app.use("/content/", contentRouter);
+app.use("/products/", productsRouter);
+app.use("/navigation/", navigationRouter);
 
 module.exports = app.listen(PORT, () => {
   console.log(`API Server is running @ http://localhost:${PORT}`);
