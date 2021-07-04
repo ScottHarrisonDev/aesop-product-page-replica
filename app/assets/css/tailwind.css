@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: 'Zapf Humanist';
+  src: local('Zapf Humanist'), url(../fonts/Zapf-Humanist.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Suisse Regular';
+  src: local('Suisse Regular'), url(../fonts/SuisseIntl-Regular-WebS.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Suisse Medium';
+  src: local('Suisse Medium'), url(../fonts/SuisseIntl-Medium-WebS.woff2) format('woff2');
+}
+
+@tailwind utilities;

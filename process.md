@@ -35,3 +35,8 @@ Server build
 
 App build
 1. Now I have a working API to use I'm going to start the VueJS app build. I was initially intending to use Vue CLI to setup the VueJS app however I think NuxtJS is how I'm going to build the app. I initially thought NuxtJS would be overkill for this project however it would provide a lot of helpful utilities. I run `yarn create nuxt-app app` from the repository root to get started. I originally wanted to use TypeScript for the front end of this project too but in the interest of time I have decided to stick with JavaScript for the front end.
+2. Once I've got the initial NuxtJS app created I'll run `npx tailwindcss init` to publish my tailwind.config.js to setup the variables for this project
+3. I'm adding the colours I can find in the Aesop web page to the TailwindCSS config file so I have access to these in the codebase.
+4. I download the font files from the Aesop website via the Chrome dev tools and import them into my assets/fonts folder. I then create the assets/css/tailwind.css file and add my font face declarations for the three new fonts.
+5. I load the app in the browser and use the dev tools to set the font-family to these new fonts to confirm it is working as expected
+6.  
