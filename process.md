@@ -57,3 +57,6 @@ App build
 21. I ended up doing both the Gallery and Instructions component at the same time as they are side by side on desktop. I originally wanted to approach this app from a mobile first point of view but ended up going for desktop first as I am more comfortable and familiar with it.
 22. I built out a basic related product component with mock data for now.
 23. I'm going to build a simple footer so the page looks more complete
+24. I created a main.js file in the store folder that will be where I make the API requests and save them to the VueX store
+25. I added an action and mutation for each of the endpoints I will be calling and add the request to the action. I decided to use NuxtJS's axios library in the end as it was the simplest way to get something up and running
+26.

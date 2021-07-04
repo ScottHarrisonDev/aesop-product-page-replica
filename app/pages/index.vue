@@ -1,5 +1,5 @@
 <template lang="pug">
-  div
+  div(v-if="contentLoaded")
     // Cart
     // LoginModal
     // SideNav
@@ -15,5 +15,16 @@
 </template>
 
 <script>
-export default {}
+export default {
+  computed: {
+    contentLoaded() {
+      return this.$store.state.main.content !== null
+    }
+  },
+  mounted() {
+    this.$store.dispatch('main/getContent')
+    this.$store.dispatch('main/getNavigation')
+    this.$store.dispatch('main/getProduct', {slug: "in-two-minds-facial-cleanser"})
+  }
+}
 </script>
