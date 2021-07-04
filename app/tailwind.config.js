@@ -13,6 +13,9 @@ module.exports = {
     fontFamily: {
       "sans": ["Suisse Regular", "Helvetica", "Arial", "sans-serif"],
       "display": ["Zapf Humanist", "serif"]
+    },
+    width: {
+      '1_3': '33.333333%'
     }
   },
   variants: {

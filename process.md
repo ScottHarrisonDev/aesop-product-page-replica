@@ -47,3 +47,7 @@ App build
 11. I start to build the Banner component, using generic copy for the time being, which will be replaced by the API content later
 12. Tailwinds default separator is ":" which doesn't play well with the pug compiler so I switched this to be "_" in the tailwind.config.js file.
 13. For the hover state of the banner button I need to add a bottom border on hover however TailwindCSS doesn't offer hover states on border properties by default so I have to add this in the tailwind.config.js file.
+14. Once I have fleshed out the Banner component and before I move on to the next component I add the background colour and text colour to the body element of the page. This is so that if for some reason the page is shorter than the viewport of the device, the footer doesn't look like a band across the middle of the page, the footer will just continue to the bottom of the viewport.
+15. I move on to developing the Navigation component. I need to use a tailwind class which has a slash in it (.w-1/3) and slashes also don't work with the pug compiler so I extend the default width properties with '1_3' so I can use the class .w-1_3 which works fine.
+16. I've also just realised I will need to add the Aesop logo image url to the API too, I've made a note and will add this later
+17. 
