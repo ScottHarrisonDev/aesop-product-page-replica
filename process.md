@@ -72,3 +72,4 @@ App build
 33. I am now going to work on the cart functionality, starting with getting the empty cart to display when a user clicks the cart button whilst it is empty.
 34. With the empty cart created I can now work on adding an item to the cart. I've realised whilst I have an ID on the product object I need to have some way of identifying the specific product variation which is being added, ie 100ml or 200ml. I am going to add an SKU field to the product API endpoint so that I have a unique identifier for each variation.
 35. I've completed the cart functionality as much as I can in the time I have so I'm going to tidy up the last couple of bits including trying to make the page a bit nicer on mobile/smaller devices as I've been quite focused on the desktop experience for this project so far
+36. Now the website is somewhat responsive I am going to write the README.md's for the project

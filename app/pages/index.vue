@@ -8,9 +8,9 @@
     Navigation
     Product
     CTA
-    .flex.items-center.bg-beige-dark
-      Gallery.w-1_2
-      Instructions.w-1_2
+    .lg_flex.lg_items-center.bg-beige-dark
+      Gallery.lg_w-1_2
+      Instructions.lg_w-1_2.lg_py-0.py-6
     RelatedProducts
     Footer
 </template>

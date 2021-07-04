@@ -1,10 +1,10 @@
 <template lang="pug">
   .bg-dark.text-beige-light.text-sm
-    .flex.mb-8
-      .flex-col.w-1_3.p-6
+    .flex.mb-8.flex-col.lg_flex-row
+      .flex-col.lg_w-1_3.p-6
         .py-4.border-b.border-beige-light Sustainability
         p.pt-4 All Aesop products are vegan, and we do not test our formulations or ingredients on animals. We are Leaping Bunny approved and a Certified B Corporation.
-      .flex.w-2_3
+      .flex.lg_w-2_3
         .flex-col.w-1_3.p-6
           .py-4.border-b.border-beige-light Services
           ul

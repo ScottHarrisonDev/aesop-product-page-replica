@@ -1,9 +1,9 @@
 <template lang="pug">
-  .bg-beige-light.text-copy-dark.pb-44.flex.justify-end.items-center.min-h-85vh
-    .w-1_3
+  .bg-beige-light.text-copy-dark.pb-44.lg_flex.lg_justify-end.lg_items-center.lg_min-h-85vh
+    .lg_w-1_3
       Transition(name="fade" appear mode="out-in")
         img.max-w-md.mx-auto(v-for="(size, index) in this.$store.state.main.product.sizes" :key="index" :src="size.image.url" alt="size.image.alt" v-if="isSelected(index)")
-    .w-1_4.mr-8pc
+    .lg_w-1_4.lg_mr-8pc.lg_px-0.px-6
       ul.flex.mb-6
         CategoryLink(v-for="(category, index) in this.$store.state.main.product.category" :key="category.slug" :label="category.label" :slug="category.slug" :last="isLast(index, $store.state.main.product.category)")
       .pb-6.border-b-2.border-accent-dark
