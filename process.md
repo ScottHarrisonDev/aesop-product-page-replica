@@ -39,4 +39,7 @@ App build
 3. I'm adding the colours I can find in the Aesop web page to the TailwindCSS config file so I have access to these in the codebase.
 4. I download the font files from the Aesop website via the Chrome dev tools and import them into my assets/fonts folder. I then create the assets/css/tailwind.css file and add my font face declarations for the three new fonts.
 5. I load the app in the browser and use the dev tools to set the font-family to these new fonts to confirm it is working as expected
-6.  
+6. I download the Aesop favicon and replace the NuxtJS favicon in the project
+7. I remove the default NuxtJS components
+8. I plan out which components this page will need and how I will break the page down. This will sort of reflect the structure of the data returned from the API but with additional components for the cart, modal etc. which are not sent by the API. Also the layout and order of these components can change based on the API response but once I have each component built individually I can add that functionality in.
+9. 
