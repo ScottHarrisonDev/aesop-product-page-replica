@@ -21,6 +21,6 @@
   },
   "scripts": {
     "start": "nodemon index.ts",
-    "build": "tsc --project ./"
+    "build": "cp -R data build/data && tsc --project ./"
   }
 }
