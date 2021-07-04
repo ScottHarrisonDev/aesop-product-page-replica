@@ -54,4 +54,6 @@ App build
 18. I've now completed fleshing out the Product component so will go on to the CTA component below
 19. I noticed that my app doesn't quite line up exactly with the Aesop website, after investigating it seems that there is a minimum height set on the product area of the page, this is set to 85vh on the Aesop website so I replicate this on my app and it looks much closer
 20. I am now going to move on to the Gallery component
-
+21. I ended up doing both the Gallery and Instructions component at the same time as they are side by side on desktop. I originally wanted to approach this app from a mobile first point of view but ended up going for desktop first as I am more comfortable and familiar with it.
+22. I built out a basic related product component with mock data for now.
+23. I'm going to build a simple footer so the page looks more complete
