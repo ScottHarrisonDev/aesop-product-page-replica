@@ -2,8 +2,14 @@
     "id": 2535,
     "slug": "in-two-minds-facial-cleanser",
     "category": [
-        "Skin",
-        "Cleanse"
+        {
+            "label": "Skin",
+            "slug": "skin"
+        },
+        {
+            "label": "Cleanse",
+            "slug": "cleanse"
+        }
     ],
     "name": "In Two Minds Facial Cleanser",
     "description": "A gentle gel-based formulation that cleanses thoroughly without drying the skin or stripping its natural oils.",
@@ -50,7 +56,7 @@
     },
     "gallery": [
         {
-            "url": "https://www.aesop.com/u1nb1km7t5q7/1bRACdCtTuuFytVln4bRTK/d0cb37294213e163a69a3425fb41b959/Aesop-Skin-In-Two-Minds-Facial-Cleanser-Texture-Landing-Page-Hero-50-50-Tablet-1536x950px.jpg",
+            "url": "https://www.aesop.com/u1nb1km7t5q7/45cmtY7HqHrzvKLEBFmTa9/c5b1e36efad6f01af887949ddde88906/Aesop-Skin-In-Two-Minds-Facial-Cleanser-Texture-Landing-Page-Hero-50-50-Desktop-1440x1500px.jpg",
             "alt": ""
         }
     ],
@@ -76,6 +82,7 @@
     },
     "related-products": [
         {
+            "url": "https://www.aesop.com/uk/p/skin/cleanse/fabulous-face-cleanser/",
             "title": "Fabulous Face Cleanser",
             "subtitle": "For skin requiring gentle cleansing",
             "image": {
@@ -84,6 +91,7 @@
             }
         },
         {
+            "url": "https://www.aesop.com/uk/p/skin/cleanse/parsley-seed-facial-cleanser/",
             "title": "Parsley Seed Facial Cleanser",
             "subtitle": "Ideal for city dwellers",
             "image": {
@@ -92,6 +100,7 @@
             }
         },
         {
+            "url": "https://www.aesop.com/uk/p/skin/cleanse/amazing-face-cleanser/",
             "title": "Amazing Face Cleanser",
             "subtitle": "Suited to oily and combination skin",
             "image": {
@@ -100,6 +109,7 @@
             }
         },
         {
+            "url": "https://www.aesop.com/uk/p/skin/tone/in-two-minds-facial-toner/",
             "title": "In Two Minds Facial Toner",
             "subtitle": "Formulated for combination skin",
             "image": {
@@ -108,6 +118,7 @@
             }
         },
         {
+            "url": "https://www.aesop.com/uk/p/skin/cleanse/purifying-facial-cream-cleanser/",
             "title": "Purifying Facial Cream Cleanser",
             "subtitle": "Gently sloughs away dead surface cells",
             "image": {
@@ -116,6 +127,7 @@
             }
         },
         {
+            "url": "https://www.aesop.com/uk/p/skin/exfoliate/purifying-facial-exfoliant-paste/",
             "title": "Purifying Facial Exfoliant Paste",
             "subtitle": "A deep-cleansing exfoliating cream",
             "image": {

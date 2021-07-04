@@ -1,8 +1,6 @@
 <template lang="pug">
   div(v-if="contentLoaded")
     // Cart
-    // LoginModal
-    // SideNav
     Banner
     Navigation
     Product
@@ -18,7 +16,9 @@
 export default {
   computed: {
     contentLoaded() {
-      return this.$store.state.main.content !== null
+      return this.$store.state.main.content !== null &&
+             this.$store.state.main.navigation !== null &&
+             this.$store.state.main.product !== null
     }
   },
   mounted() {

@@ -59,4 +59,5 @@ App build
 23. I'm going to build a simple footer so the page looks more complete
 24. I created a main.js file in the store folder that will be where I make the API requests and save them to the VueX store
 25. I added an action and mutation for each of the endpoints I will be calling and add the request to the action. I decided to use NuxtJS's axios library in the end as it was the simplest way to get something up and running
-26.
+26. Now that I have all the content being read into the app I'll go through and make sure all of the components are using the dynamic data from the API
+27. 
