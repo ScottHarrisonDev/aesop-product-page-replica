@@ -1,6 +1,7 @@
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
+  separator: '_',
   theme: {
     colors: {
       "beige-light": "#fffef2",
@@ -15,7 +16,10 @@ module.exports = {
     }
   },
   variants: {
-    extend: {},
+    extend: {
+      borderWidth: ['hover'],
+      borderColor: ['hover']
+    },
   },
   plugins: [],
 }

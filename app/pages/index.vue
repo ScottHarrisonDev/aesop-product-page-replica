@@ -1,8 +1,8 @@
-<template>
+<template lang="pug">
   // Cart
   // LoginModal
   // SideNav
-  // Banner
+  Banner
   // Navigation
   // Product
   // CTA
