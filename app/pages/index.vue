@@ -11,7 +11,7 @@
       Gallery.w-1_2
       Instructions.w-1_2
     RelatedProducts
-    // Footer
+    Footer
 </template>
 
 <script>
