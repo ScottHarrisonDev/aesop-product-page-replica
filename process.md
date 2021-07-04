@@ -50,4 +50,5 @@ App build
 14. Once I have fleshed out the Banner component and before I move on to the next component I add the background colour and text colour to the body element of the page. This is so that if for some reason the page is shorter than the viewport of the device, the footer doesn't look like a band across the middle of the page, the footer will just continue to the bottom of the viewport.
 15. I move on to developing the Navigation component. I need to use a tailwind class which has a slash in it (.w-1/3) and slashes also don't work with the pug compiler so I extend the default width properties with '1_3' so I can use the class .w-1_3 which works fine.
 16. I've also just realised I will need to add the Aesop logo image url to the API too, I've made a note and will add this later
-17. 
+17. I just added a custom spacing property to the tailwind config file and realised that I had accidentally been overriding the tailwind width and spacing properties rather than extending the defaults so I correct that within the tailwind config
+18. I've now completed fleshing out the Product component so will go on to the CTA component below

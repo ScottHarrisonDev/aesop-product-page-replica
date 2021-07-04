@@ -1,5 +1,5 @@
 <template lang="pug">
-  .bg-beige-light.text-dark.flex.justify-between.h-20
+  .bg-beige-light.text-copy-dark.flex.justify-between.h-20
     ul.w-1_3.flex.justify-start.px-10.items-center
       li.mr-6.text-sm
         a Shop

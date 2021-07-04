@@ -5,7 +5,7 @@
     // SideNav
     Banner
     Navigation
-    // Product
+    Product
     // CTA
     // Gallery
     // Instructions
