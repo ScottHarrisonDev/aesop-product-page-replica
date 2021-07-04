@@ -1,5 +1,5 @@
 <template lang="pug">
-  .bg-beige-light.text-copy-dark.py-32.flex.justify-end.items-center
+  .bg-beige-light.text-copy-dark.pb-44.flex.justify-end.items-center.min-h-85vh
     .w-1_3
       img.max-w-md.mx-auto(src="https://www.aesop.com/u1nb1km7t5q7/7tnEMRS4AaGorVjN4Qh6iN/77dd7f1107054d94f3bdc1a845b083d8/Aesop-Skin-In-Two-Minds-Facial-Cleanser-100mL-Large-835x962px.png")
     .w-1_4.mr-8pc

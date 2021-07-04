@@ -52,3 +52,6 @@ App build
 16. I've also just realised I will need to add the Aesop logo image url to the API too, I've made a note and will add this later
 17. I just added a custom spacing property to the tailwind config file and realised that I had accidentally been overriding the tailwind width and spacing properties rather than extending the defaults so I correct that within the tailwind config
 18. I've now completed fleshing out the Product component so will go on to the CTA component below
+19. I noticed that my app doesn't quite line up exactly with the Aesop website, after investigating it seems that there is a minimum height set on the product area of the page, this is set to 85vh on the Aesop website so I replicate this on my app and it looks much closer
+20. I am now going to move on to the Gallery component
+
