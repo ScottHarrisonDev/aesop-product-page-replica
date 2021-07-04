@@ -42,4 +42,5 @@ App build
 6. I download the Aesop favicon and replace the NuxtJS favicon in the project
 7. I remove the default NuxtJS components
 8. I plan out which components this page will need and how I will break the page down. This will sort of reflect the structure of the data returned from the API but with additional components for the cart, modal etc. which are not sent by the API. Also the layout and order of these components can change based on the API response but once I have each component built individually I can add that functionality in.
-9. 
+9. I've just realised that I have not got any meta information in the API for the product such as HTML title, description etc. I have made a note and will come back and add these.
+10. I realise that I have not added pug to this project yet so I add the pug and pug-loader dependencies which allows me to use pug within the templates. I prefer the quicker speed and cleaner code of pug.
