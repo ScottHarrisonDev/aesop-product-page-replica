@@ -16,17 +16,22 @@ This is the process I followed when completing this project
 1. Create the repository in GitHub
 2. Clone the repository to my local machine
 3. Create project structure (app and server folders)
-4. Ran `yarn init` and setup the package.json within the server folder
-5. Add dependencies such as express, typescript, nodemon to get a suitable NodeJS dev environment set up
-6. Create a tsconfig.json to configure TypeScript
-7. Create index.ts which will be the entry point for the Express server with a simple test endpoint
-8. Run `yarn start` to verify everything is working as expected
-9. Create src/controllers/content.controller.ts to handle all content related endpoints (In a production API there may be content, products, blog posts etc.)
-10. Update index.ts to use the new content controller
-11. Run server via `yarn start` and verify the /content/navigation route is working
-12. After reading the brief again I realised that having a controller for each type of data that needs to be returned would be much wiser so I refactored the code to be in content, navigation and products controllers (Rather than just the single content controller)
-13. Plan out what data I need from the API and the best way to structure the JSON
-14. Write the JSON files which will hold the content for the page in data/content.json, data/navigation.json and data/product.json. In a production app the backend would fetch the data from the CMS API or from a database
-15. Create a service for each of the models (content, navigation, products) that allows us to have a single file to tweak if we switch data source in future. For example if I removed the JSON files and wanted to use an external API I would just update the service to handle this and everything else in the code can stay the same as it just consumes the data in a known format
-16. Create an interface for each of the return types which is used in the services
-17. Verify that all of the endpoints are working as expected by browsing to the endpoint (or using software such as Postman)
+
+Server build
+1. Ran `yarn init` and setup the package.json within the server folder
+2. Add dependencies such as express, typescript, nodemon to get a suitable NodeJS dev environment set up
+3. Create a tsconfig.json to configure TypeScript
+4. Create index.ts which will be the entry point for the Express server with a simple test endpoint
+5. Run `yarn start` to verify everything is working as expected
+6. Create src/controllers/content.controller.ts to handle all content related endpoints (In a production API there may be content, products, blog posts etc.)
+7. Update index.ts to use the new content controller
+8. Run server via `yarn start` and verify the /content/navigation route is working
+9. After reading the brief again I realised that having a controller for each type of data that needs to be returned would be much wiser so I refactored the code to be in content, navigation and products controllers (Rather than just the single content controller)
+10. Plan out what data I need from the API and the best way to structure the JSON
+11. Write the JSON files which will hold the content for the page in data/content.json, data/navigation.json and data/product.json. In a production app the backend would fetch the data from the CMS API or from a database
+12. Create a service for each of the models (content, navigation, products) that allows us to have a single file to tweak if we switch data source in future. For example if I removed the JSON files and wanted to use an external API I would just update the service to handle this and everything else in the code can stay the same as it just consumes the data in a known format
+13. Create an interface for each of the return types which is used in the services
+14. Verify that all of the endpoints are working as expected by browsing to the endpoint (or using software such as Postman)
+
+App build
+1. Now I have a working API to use I'm going to start the VueJS app build. I was initially intending to use Vue CLI to setup the VueJS app however I think NuxtJS is how I'm going to build the app. I initially thought NuxtJS would be overkill for this project however it would provide a lot of helpful utilities. I run `yarn create nuxt-app app` from the repository root to get started. I originally wanted to use TypeScript for the front end of this project too but in the interest of time I have decided to stick with JavaScript for the front end.
