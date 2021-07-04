@@ -1,7 +1,7 @@
 <template lang="pug">
   li.w-96.flex-shrink-0.flex-grow-0
     a.text-center(:href="url")
-      img.h-400(:src="imageURL" :alt="imagealt")
+      img.h-400(:src="imageURL" :alt="imageAlt")
       .font-sans-bold.font-medium.mb-4 {{ title }}
       div {{ subtitle }}
 </template>

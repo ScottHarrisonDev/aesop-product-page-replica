@@ -1,7 +1,8 @@
 <template lang="pug">
   .bg-beige-light.text-copy-dark.pb-44.flex.justify-end.items-center.min-h-85vh
     .w-1_3
-      img.max-w-md.mx-auto(:src="this.$store.state.main.product.sizes[selectedSize].image.url" alt="this.$store.state.main.product.sizes[selectedSize].image.alt")
+      Transition(name="fade" appear mode="out-in")
+        img.max-w-md.mx-auto(v-for="(size, index) in this.$store.state.main.product.sizes" :key="index" :src="size.image.url" alt="size.image.alt" v-if="isSelected(index)")
     .w-1_4.mr-8pc
       ul.flex.mb-6
         CategoryLink(v-for="(category, index) in this.$store.state.main.product.category" :key="category.slug" :label="category.label" :slug="category.slug" :last="isLast(index, $store.state.main.product.category)")
@@ -13,7 +14,7 @@
       .py-3pt5.text-sm
         .font-sans-bold.font-medium.mb-0pt5.leading-6 Sizes
         .flex
-          SizeButton(v-for="(size, index) in this.$store.state.main.product.sizes" :key="index" :name="size.name" :selected="isSelected(index)")
+          SizeButton(v-for="(size, index) in this.$store.state.main.product.sizes" :key="index" :name="size.name" :selected="isSelected(index)" :setSize="setSize" :index="index")
       button.bg-copy-dark.text-beige-light.py-5.px-3pt5.w-full.text-sm.hover_bg-black.transition.duration-200.ease-in-out.mb-3pt5 Add to your cart - {{ formatPrice(this.$store.state.main.product.sizes[selectedSize].price) }}
       ProductCTA(:copy="this.$store.state.main.product.cta.copy" :title="this.$store.state.main.product.cta.title" :url="this.$store.state.main.product.cta.url" :imageURL="this.$store.state.main.product.cta.image.url" :imageAlt="this.$store.state.main.product.cta.image.alt")
 </template>
@@ -35,7 +36,19 @@ export default {
     },
     formatPrice(price) {
       return (price / 100).toLocaleString("en-GB", {style: "currency", currency: "GBP"});
+    },
+    setSize(index) {
+      this.selectedSize = index;
     }
   }
 }
 </script>
+
+<style scoped>
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+</style>

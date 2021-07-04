@@ -60,4 +60,11 @@ App build
 24. I created a main.js file in the store folder that will be where I make the API requests and save them to the VueX store
 25. I added an action and mutation for each of the endpoints I will be calling and add the request to the action. I decided to use NuxtJS's axios library in the end as it was the simplest way to get something up and running
 26. Now that I have all the content being read into the app I'll go through and make sure all of the components are using the dynamic data from the API
-27. 
+27. Whilst hooking up components to the API data I optimised the code and created smaller simple components for less repeatability
+28. I'm conscious that I'm running low on time so I am going to focus on the main criteria mentioned in the spec which is:
+- Product size switcher
+- Shopping cart - add/remove from cart, change quantity.
+- Open and close cart
+29. I'll start with the size switcher as I've already got the UI started. The next step is to build the custom radio buttons.
+30. After creating the radio buttons I then hooked up the buttons to actually change the state and set the selected size.
+31. Now that I could see the app reacting to the state change I could see that the product image needed a transition to match the Aesop website. I used the Vue `<Transition>` component for this.
