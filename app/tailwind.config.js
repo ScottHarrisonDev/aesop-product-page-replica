@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     colors: {
       "beige-light": "#fffef2",
+      "beige-light-transparent": "rgb(255 254 242 / 10%)",
       "beige-dark": "#f6f5e8",
       dark: "#252525",
       "copy-dark": "#333333",

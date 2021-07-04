@@ -15,7 +15,7 @@
         .font-sans-bold.font-medium.mb-0pt5.leading-6 Sizes
         .flex
           SizeButton(v-for="(size, index) in this.$store.state.main.product.sizes" :key="index" :name="size.name" :selected="isSelected(index)" :setSize="setSize" :index="index")
-      button.bg-copy-dark.text-beige-light.py-5.px-3pt5.w-full.text-sm.hover_bg-black.transition.duration-200.ease-in-out.mb-3pt5 Add to your cart - {{ formatPrice(this.$store.state.main.product.sizes[selectedSize].price) }}
+      button.bg-copy-dark.text-beige-light.py-5.px-3pt5.w-full.text-sm.hover_bg-black.transition.duration-200.ease-in-out.mb-3pt5(@click="addToCart($store.state.main.product.sizes[selectedSize].sku)") Add to your cart - {{ formatPrice(this.$store.state.main.product.sizes[selectedSize].price) }}
       ProductCTA(:copy="this.$store.state.main.product.cta.copy" :title="this.$store.state.main.product.cta.title" :url="this.$store.state.main.product.cta.url" :imageURL="this.$store.state.main.product.cta.image.url" :imageAlt="this.$store.state.main.product.cta.image.alt")
 </template>
 
@@ -39,6 +39,13 @@ export default {
     },
     setSize(index) {
       this.selectedSize = index;
+    },
+    addToCart(sku) {
+      this.$store.dispatch('main/addToCart', sku);
+      this.$store.dispatch('main/toggleNotification', this.$store.state.main.cart.notification);
+      setTimeout(() => {
+        this.$store.dispatch('main/toggleNotification', this.$store.state.main.cart.notification);
+      }, 3000);
     }
   }
 }
@@ -48,7 +55,7 @@ export default {
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s;
 }
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+.fade-enter, .fade-leave-to {
   opacity: 0;
 }
 </style>

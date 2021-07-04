@@ -68,3 +68,7 @@ App build
 29. I'll start with the size switcher as I've already got the UI started. The next step is to build the custom radio buttons.
 30. After creating the radio buttons I then hooked up the buttons to actually change the state and set the selected size.
 31. Now that I could see the app reacting to the state change I could see that the product image needed a transition to match the Aesop website. I used the Vue `<Transition>` component for this.
+32. I went back and added the html title and description meta tag data to the API and used the head NuxtJS method in the index page to apply it.
+33. I am now going to work on the cart functionality, starting with getting the empty cart to display when a user clicks the cart button whilst it is empty.
+34. With the empty cart created I can now work on adding an item to the cart. I've realised whilst I have an ID on the product object I need to have some way of identifying the specific product variation which is being added, ie 100ml or 200ml. I am going to add an SKU field to the product API endpoint so that I have a unique identifier for each variation.
+35. I've completed the cart functionality as much as I can in the time I have so I'm going to tidy up the last couple of bits including trying to make the page a bit nicer on mobile/smaller devices as I've been quite focused on the desktop experience for this project so far

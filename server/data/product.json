@@ -15,6 +15,7 @@
     "description": "A gentle gel-based formulation that cleanses thoroughly without drying the skin or stripping its natural oils.",
     "sizes": [
         {
+            "sku": "A-ITMFC-100",
             "name": "100 mL",
             "image": {
                 "url": "https://www.aesop.com/u1nb1km7t5q7/1qBFy7BYzet5LV546uIUtv/da3ecdcc7189e90e998015a60557d4ca/Aesop-Skin-In-Two-Minds-Facial-Cleanser-100mL-Medium-653x752px.png",
@@ -23,6 +24,7 @@
             "price": 2300
         },
         {
+            "sku": "A-ITMFC-200",
             "name": "200 mL",
             "image": {
                 "url": "https://www.aesop.com/u1nb1km7t5q7/7p7GsoLigpadgSGJ4ahfdw/b5ae27e007d3fd86dfef2b65b9fc0770/Aesop-Skin-In-Two-Minds-Facial-Cleanser-200mL-Medium-653x752px.png",

@@ -35,7 +35,7 @@ export default {
           // Open login modal
           break;
         case "cart":
-          // Open top panel with cart
+          this.$store.dispatch('main/toggleCart', this.$store.state.main.cart.open);
           break;
       }
     }
